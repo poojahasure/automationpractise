@@ -1,0 +1,5 @@
+package org.inheritance;
+
+public class Child2Parent1 {
+
+}

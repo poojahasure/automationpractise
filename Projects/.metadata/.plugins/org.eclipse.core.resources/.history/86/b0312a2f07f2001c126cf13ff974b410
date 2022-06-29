@@ -1,0 +1,20 @@
+package org.practise;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+System.setProperty("webdriver.chrome.driver", "E:\\Java setup\\Projects\\MavenNewPro\\driverfiles\\chromedriver.exe");
+		
+		WebDriver driver =new ChromeDriver();//launch new cg=hrome brower
+		
+		driver.get("https://www.facebook.com");//open the url
+		System.out.println(driver.getTitle());
+		
+		
+
+	}
+
+}

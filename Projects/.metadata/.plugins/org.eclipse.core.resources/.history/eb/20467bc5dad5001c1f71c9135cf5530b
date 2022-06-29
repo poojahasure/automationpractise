@@ -1,0 +1,15 @@
+package org.string;
+
+public class StrReplace {
+	
+	public static void main(String args[]) {
+		String str="Garden is Beautiful";
+		String str1="Garden is Beautiful is ";
+		
+//		System.out.println(str.replace('a', '*'));
+		System.out.println(str.replace("is","+"));
+		
+		System.out.println(str.replaceFirst("is","#"));
+	}
+
+}

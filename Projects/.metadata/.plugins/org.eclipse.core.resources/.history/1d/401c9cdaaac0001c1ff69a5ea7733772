@@ -1,0 +1,20 @@
+package org.array;
+
+public class SwapNum {
+	 public static void main(String [] args) {
+		 
+		 
+		 int arr[]= {3,2};
+		 int temp;
+		  
+		 System.out.println("Before swap= "+ arr[0]+" "+arr[1]);
+		 temp=arr[0];
+		 arr[0]=arr[1];
+		 arr[1]=temp;
+		 
+		 System.out.println("After swap= "+ arr[0]+" "+arr[1]);
+		 
+		 
+	 }
+
+}

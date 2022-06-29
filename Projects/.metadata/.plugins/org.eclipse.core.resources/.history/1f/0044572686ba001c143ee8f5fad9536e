@@ -1,0 +1,28 @@
+package conditionalstatement;
+
+public class IfElseEx {
+	
+	public static void main(String args[]) {
+	//	int a=10,b=29,c=12;
+		IfElseEx obj = new IfElseEx();
+		obj.method();
+	}
+	
+	public void method( ) {
+		int x=10,y=12,z=30;
+		
+		if(x>y && x>z ) {
+			System.out.println("x is greater"+x);
+		
+		}else if(y>x && y>z) {
+			
+			System.out.println("y is greater"+y);
+		}else  {
+			System.out.println("z is greater"+z);
+		}
+		
+		
+		
+	}
+
+}

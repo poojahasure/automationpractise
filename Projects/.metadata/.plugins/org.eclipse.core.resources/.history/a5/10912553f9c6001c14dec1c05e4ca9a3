@@ -1,0 +1,29 @@
+package org.oops;
+
+class AccountDetails{
+	
+	private int account_balance;
+	
+	
+	public int getAccountBalance() {
+		
+		return account_balance;
+	}
+	
+	public void depositAmount(int Amount) {
+		if(Amount<0) {
+			System.out.println("invalid deposit");
+		}else {
+			account_balance+=Amount;
+		}
+	}
+}
+
+public class Account {
+	public static void main(String [] args) {
+		AccountDetails  obj = new AccountDetails();
+		System.out.println(obj.getAccountBalance());
+		
+	}
+
+}

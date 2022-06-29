@@ -1,0 +1,18 @@
+package method;
+
+public class SimpleInterest {
+	public static void main(String args[]) {
+		SimpleInterest	obj = new SimpleInterest();
+		int a=100,b=2,c=1;
+		int ans=obj.calculate(a,b,c);
+		System.out.println(ans);
+	}
+	public int calculate(int p,int r, int t) {
+		
+	int si=(p*r*t)/100;
+	return si;
+		
+		
+	}
+
+}

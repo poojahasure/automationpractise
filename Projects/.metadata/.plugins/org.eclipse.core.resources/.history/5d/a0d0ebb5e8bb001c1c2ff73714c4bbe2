@@ -1,0 +1,19 @@
+package pattern;
+
+public class pattern123 {
+	
+	public static void main(String args[]) {
+		pattern123.pattern(3);
+	
+		
+	}
+	public static void pattern(int n) {
+		
+		for(int i=1;i<=3;i++) {
+			for(int j=i;j<=i;j++) {
+				System.out.println(i +""+j);
+			}
+		}
+	}
+
+}

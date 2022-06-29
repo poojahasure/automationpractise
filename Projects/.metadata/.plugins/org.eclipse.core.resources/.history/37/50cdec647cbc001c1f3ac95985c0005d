@@ -1,0 +1,15 @@
+package org.whileloop;
+
+public class Even {
+	public static void main(String args[]) {
+		
+		int i=50;
+		while(i<=70) {
+			while(i%2==0) {
+				System.out.println(i);
+			}i++;
+			
+		}
+	}
+
+}

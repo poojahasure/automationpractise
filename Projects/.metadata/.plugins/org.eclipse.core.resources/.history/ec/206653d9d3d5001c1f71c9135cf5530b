@@ -1,0 +1,12 @@
+package org.string;
+//1.==
+//2..equals 
+public class StringEx1 {
+   public static void main(String args[]) {
+	   String str1="Pune";
+	   String str2="Pune";
+	   
+	   System.out.println(str1==str2);
+	   System.out.println(str1.equals(str2));
+   }
+}

@@ -1,0 +1,29 @@
+package org.array;
+
+public class Access2DArray {
+	public static void main(String [] args) {
+	//	int[][]arr=new int[3][3]; declaration
+		
+		// arr[0][1]=12
+		
+		//     c0  c1 c2
+		// r0      12
+       //  r1         5
+		// r2      4
+		
+		int[][] arr= {{12,23,44},{33,44,55},{88,66,77}};// declaration + initialization
+		
+		for(int i=0;i<arr.length;i++) {//row
+			
+			for(int j=0;j<arr.length;j++) {//col
+				
+				
+				System.out.print(arr[i][j]+"\t");//arr[0][0]
+			}
+			
+			System.out.println();
+		}
+		//System.out.println(arr[2][0]);
+	}
+
+}

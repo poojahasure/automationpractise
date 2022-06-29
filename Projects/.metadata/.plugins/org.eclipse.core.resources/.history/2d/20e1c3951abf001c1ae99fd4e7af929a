@@ -1,0 +1,26 @@
+package org.imp;
+
+public class ReverseNum {
+	
+	public static void main(String args[]) {
+		
+     
+     int n=1234;
+     System.out.println(ReverseNum.method(n));	
+     System.out.println(ReverseNum.method(4284));	
+	}
+	
+	public static int method(int n) {
+		int rev=0;
+		int rem;
+		while(n>0) {
+			rem=n%10;// to get remainder value
+			rev=(rev*10)+rem;
+			n=n/10;  // to get quotient value
+			
+		}
+		
+		return rev;
+	}
+
+}

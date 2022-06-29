@@ -1,0 +1,24 @@
+package org.whileloop;
+
+public class Even {
+	public static void main(String args[]) {
+		
+		int i=50;
+		while(i<=70) {
+			if(i%2==0) {
+				System.out.println("even no is "+ i);
+			}
+			i++;
+			
+		}
+		 int i=50;
+		while(i<=70) {
+			
+			if(i%2!=0) {
+				System.out.println("odd no is"+i);
+			}
+			i++;
+		}
+	}
+
+}

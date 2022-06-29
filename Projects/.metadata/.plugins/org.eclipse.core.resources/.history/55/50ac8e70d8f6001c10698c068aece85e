@@ -1,0 +1,9 @@
+package org.testng;
+
+public class Testng1 {
+	@test
+	public void Test{
+		
+	}
+
+}

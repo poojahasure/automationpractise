@@ -1,0 +1,10 @@
+package org.string;
+
+public class StringEx3 {
+	public static void main(String args[]) {
+		
+		String str="There is a garden and its is beautiful";
+		System.out.println(str.substring(6));
+	}
+
+}

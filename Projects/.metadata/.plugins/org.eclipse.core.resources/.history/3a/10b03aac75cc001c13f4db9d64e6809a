@@ -1,0 +1,32 @@
+package org.oops;
+
+public class OverLoading {
+	
+	public static void main(String [] args) {
+		OverLoading obj  =new OverLoading();
+		obj.test(20f); // 1.different types of datatypes
+//		obj.test(3);
+//		obj.test('c');
+//		obj.test('c');
+//		obj.test(2,'c');
+	}
+	
+	public void test(int a) {
+		System.out.println(a);
+	}
+	public void test(char a) {
+		System.out.println(a);
+	}
+	public void test(float a) {
+		System.out.println(a);
+	}
+	
+	
+//	public void test(int a) {
+//		System.out.println(a);
+//	}
+//	public void test(int a,char b) {
+//		System.out.println(a+""+b);
+//	}
+
+}

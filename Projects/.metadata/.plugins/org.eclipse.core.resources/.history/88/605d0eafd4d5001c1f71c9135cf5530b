@@ -1,0 +1,11 @@
+package org.string;
+
+public class StringEx2 {
+     public static void main(String args[]) {
+    	 String str="Pune";
+    	 String str1="There is a garden and its is beautiful";
+    	 
+    	 System.out.println(str.charAt(2));
+    	 System.out.println(str.indexOf("u"));
+     }
+}
